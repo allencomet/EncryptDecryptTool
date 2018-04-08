@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\openssl">
+      <UniqueIdentifier>{a8e12dcd-9784-46c1-8bee-cd60d4526c29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\zlib">
+      <UniqueIdentifier>{9dd89cd7-3668-4311-9119-eaa21e175edc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EncryptDecrypt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptDecryptDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\aes.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\asn1.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\asn1_mac.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\asn1t.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\bio.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\blowfish.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\bn.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\buffer.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\cast.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\comp.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\conf.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\conf_api.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\crypto.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\des.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\des_old.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\dh.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\dsa.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\dso.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\dtls1.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\e_os2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ebcdic.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ec.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ecdh.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ecdsa.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\engine.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\err.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\evp.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\hmac.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\idea.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\krb5_asn.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\kssl.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\lhash.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\md2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\md4.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\md5.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\obj_mac.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\objects.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ocsp.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\opensslconf.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\opensslv.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ossl_typ.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pem.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pem2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pkcs7.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pkcs12.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pq_compat.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\pqueue.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rand.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rc2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rc4.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ripemd.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\rsa.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\safestack.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\sha.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ssl.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ssl2.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ssl3.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ssl23.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\stack.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\store.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\symhacks.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\tls1.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\tmdiff.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\txt_db.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ui.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\ui_compat.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\x509.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\x509_vfy.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="openssl\x509v3.h">
+      <Filter>头文件\openssl</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zconf.h">
+      <Filter>头文件\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib\zlib.h">
+      <Filter>头文件\zlib</Filter>
+    </ClInclude>
+    <ClInclude Include="blowfish.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EncryptDecrypt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptDecryptDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="openssl\applink.cpp">
+      <Filter>头文件\openssl</Filter>
+    </ClCompile>
+    <ClCompile Include="blowfish.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="EncryptDecrypt.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\EncryptDecrypt.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\EncryptDecrypt.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

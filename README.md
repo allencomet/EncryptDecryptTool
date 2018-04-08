@@ -1,2 +1,2 @@
-# EncryptDecryptTool
-a simple tool for encrypt or decrypt file
+# EncryptDecrypt
+自制加解密工具，使用MFC开发
